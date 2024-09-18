@@ -1,0 +1,167 @@
+.sqs-gallery-design-carousel.summary-block-wrapper {
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+}
+.loaded-carousel .summary-item-list {
+  opacity: 1 !important;
+}
+.section-with-october-slider .content-wrapper {
+  box-sizing: border-box !important;
+}
+.detraform-press-release-plugin.summary-block-wrapper {
+  opacity: 1 !important;
+  margin: 0px auto !important;
+  transform: none !important;
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-block-header {
+  display: none;
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list {
+  margin: 0px !important;
+  transform: none !important;
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item {
+  display: block;
+  width: 100% !important;
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-metadata-container.summary-metadata-container--above-title {
+  width: 25%;
+  margin: 0 auto;
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-metadata-container.summary-metadata-container--above-title .summary-metadata-item--date {
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 768px) {
+  .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-metadata-container.summary-metadata-container--above-title .summary-metadata-item--date {
+    min-width: 128px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-metadata-container.summary-metadata-container--above-title .summary-metadata-item--date:after {
+    float: right;
+    margin-right: 0.6em;
+  }
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-metadata-container.summary-metadata-container--above-title .summary-metadata-item--cats a {
+  padding-left: 3px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 1300px) {
+  .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-metadata-container.summary-metadata-container--above-title {
+    width: 30%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-metadata-container.summary-metadata-container--above-title {
+    width: 20%;
+  }
+  .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-metadata-container.summary-metadata-container--above-title .summary-metadata-item--cats {
+    display: inline-block;
+    width: 100%;
+  }
+  .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-metadata-container.summary-metadata-container--above-title .summary-metadata-item--cats a {
+    padding-left: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-metadata-container.summary-metadata-container--above-title {
+    width: 100%;
+    margin-bottom: 6px;
+  }
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-title {
+  width: 50%;
+  margin: 0 auto;
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-title a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 1300px) {
+  .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-title {
+    padding-left: 17px;
+    box-sizing: border-box;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-title {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-title {
+    width: 100%;
+    margin-bottom: 10px;
+    padding-left: 0;
+  }
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-read-more-link {
+  width: 25%;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  border-radius: 0;
+  text-align: right;
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-read-more-link:hover {
+  background: transparent;
+  opacity: 0.7;
+}
+@media only screen and (max-width: 1300px) {
+  .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-read-more-link {
+    width: 20%;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-read-more-link {
+    width: 100%;
+    text-align: left;
+  }
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list .summary-item .summary-content .summary-excerpt {
+  display: none;
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list-container {
+  display: block;
+  width: 100%;
+  overflow: visible;
+}
+@media only screen and (max-width: 800px) {
+  .detraform-press-release-plugin.summary-block-wrapper .summary-item-list-container {
+    width: 100%;
+  }
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list-container {
+  position: relative;
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list-container .hover-line {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 5px;
+  top: 0;
+  bottom: 0;
+  background-color: red;
+}
+.detraform-press-release-plugin.summary-block-wrapper .summary-item-list-container .hover-line .hover-for-card {
+  background-color: blue;
+  top: 0;
+  transition: all 0.5s ease;
+}

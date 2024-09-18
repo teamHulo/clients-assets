@@ -1,0 +1,123 @@
+.center-both {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+.transition-custom {
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.h5-font {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 640px) {
+  .h5-font {
+    font-size: 20px;
+  }
+}
+@media only screen and (max-width: 640px) {
+  .sqs-block.gallery-block.sqs-block-gallery .slide {
+    width: 100% !important;
+  }
+}
+.sqs-block.gallery-block.sqs-block-gallery .slide .sqs-video-wrapper .sqs-video-overlay .sqs-video-icon {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  background-image: url('https://static1.squarespace.com/static/5af5718b50a54fae43d4a4af/t/5af59b4e758d4685600b409c/1526045519027/play-button.png');
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 90px;
+  width: 90px;
+  margin: 0 auto;
+  opacity: 1;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.sqs-block.gallery-block.sqs-block-gallery .slide .video-lightbox-wrapper .gallery-desc {
+  top: 20px;
+  text-align: center;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border: 4px solid #3600d6;
+  position: absolute;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  opacity: 0;
+}
+@media only screen and (max-width: 640px) {
+  .sqs-block.gallery-block.sqs-block-gallery .slide .video-lightbox-wrapper .gallery-desc {
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+  }
+}
+.sqs-block.gallery-block.sqs-block-gallery .slide .video-lightbox-wrapper .gallery-cont {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 300px;
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #fff;
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  opacity: 0;
+  font-weight: 900;
+}
+@media only screen and (max-width: 640px) {
+  .sqs-block.gallery-block.sqs-block-gallery .slide .video-lightbox-wrapper .gallery-cont {
+    font-size: 20px;
+  }
+}
+.sqs-block.gallery-block.sqs-block-gallery .slide .video-lightbox-wrapper .gallery-cont p {
+  text-transform: none;
+  color: #fff;
+  margin-top: 0px;
+}
+.sqs-block.gallery-block.sqs-block-gallery .slide .video-lightbox-wrapper .sqs-video-opaque {
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+.sqs-block.gallery-block.sqs-block-gallery .slide:hover .sqs-video-opaque {
+  opacity: .4;
+}
+.sqs-block.gallery-block.sqs-block-gallery .slide:hover .gallery-cont,
+.sqs-block.gallery-block.sqs-block-gallery .slide:hover .gallery-desc {
+  opacity: 1;
+}
+.sqs-block.gallery-block.sqs-block-gallery .slide:hover .sqs-video-icon {
+  opacity: 0 !important;
+}

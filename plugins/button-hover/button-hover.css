@@ -1,0 +1,54 @@
+.sqs-block-button-element--small.sqs-block-button-element {
+	 border-color: #000;
+	 color: #000;
+	 display: inline-block;
+	 padding: .8em 2em;
+	 background: none;
+	 vertical-align: middle;
+	 position: relative;
+	 z-index: 1;
+	 font-size: 20px;
+	 border-width: 5px !important;
+	 border-style:solid;
+	 cursor: pointer;
+	 -webkit-transition: all .4s ease-out;
+	 -moz-transition: all .4s ease-out;
+	 -o-transition: all .4s ease-out;
+	 transition: all .4s ease-out;
+	 overflow: hidden;
+	 color: #000 !important;
+	 background-color: #feca57 !important;
+}
+ .sqs-block-button-element--small.sqs-block-button-element:focus {
+	 outline: none;
+}
+ .sqs-block-button-element--small.sqs-block-button-element::after {
+	 content: "";
+	 background-color: transparent;
+	 position: absolute;
+	 top: -20px;
+	 left: -20px;
+	 right: -20px;
+	 bottom: -20px;
+	 opacity: 0;
+	 color: #000;
+	 z-index: -1;
+	 -webkit-transition: all .4s ease-out;
+	 -moz-transition: all .4s ease-out;
+	 -o-transition: all .4s ease-out;
+	 transition: all .4s ease-out;
+}
+ .sqs-block-button-element--small.sqs-block-button-element:hover::after {
+	 opacity: 1;
+	 background-color: #000;
+	 top: 0;
+	 left: 0;
+	 right: 0;
+	 bottom: 0;
+}
+ .sqs-block-button-element--small.sqs-block-button-element:hover {
+	 border-color: #000;
+	 overflow: visible;
+	 color: #feca57 !important;
+}
+ 

@@ -1,0 +1,6 @@
+.custom-folder .header-nav-folder-title {
+  display: none;
+}
+.custom-folder .header-nav-folder-content .header-nav-folder-item:first-child {
+  display: none;
+}

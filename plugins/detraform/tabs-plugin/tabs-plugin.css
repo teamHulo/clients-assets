@@ -1,0 +1,57 @@
+/*@bg-tabs: #249bab;  */
+/*@color-tabs: #fff;  */
+/*@active-tab-color: rgb(255, 255, 200);  */
+
+.page-with-tabs .Index-page.tab-section {
+  display: none;
+  -webkit-transition: all 0.3s ease-out !important;
+  -moz-transition: all 0.3s ease-out !important;
+  -o-transition: all 0.3s ease-out !important;
+  transition: all 0.3s ease-out !important;
+  opacity: 0;
+}
+.page-with-tabs .Index-page.tab-section .Index-page-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.page-with-tabs .Index-page.tab-section.visible-tab {
+  display: block;
+}
+.page-with-tabs .Index-page.tab-section.animate-tab {
+  opacity: 1;
+}
+
+.page-with-tabs .tabs-wrapper .tabs-wrapper-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 17px 0 17px;
+}
+@media screen and (max-width: 640px) {
+  .page-with-tabs .tabs-wrapper .tabs-wrapper-inner {
+    text-align: center;
+  }
+}
+.page-with-tabs .tabs-wrapper .tabs-wrapper-inner span {
+  display: inline-block;
+  list-style: none;
+  padding: 0px 0px 20px;
+  line-height: 1.2em;
+  cursor: pointer;
+  margin: 0 34px 0px 0px;
+  -webkit-transition: all 0.3s ease-out !important;
+  -moz-transition: all 0.3s ease-out !important;
+  -o-transition: all 0.3s ease-out !important;
+  transition: all 0.3s ease-out !important;
+
+}
+@media screen and (max-width: 640px) {
+  .page-with-tabs .tabs-wrapper .tabs-wrapper-inner span {
+    margin-bottom: 17px;
+    padding: 0px 0px 7px;
+    margin: 0 17px 17px 17px;
+  }
+}
+
+.page-with-tabs .tabs-wrapper .tabs-wrapper-inner span:hover {
+  opacity: .8;
+}

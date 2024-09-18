@@ -1,0 +1,3 @@
+; (function () {
+let isSection = document.querySelectorAll(".section-name"); if (void 0 !== isSection && null != isSection && isSection.forEach(function (e) { let t = e.getAttribute("data-name"); e.closest("section").classList.add(t + "-section"), e.closest(".sqs-block-code").style.display = "none" }), document.body.classList.contains("collection-type-blog-masonry") && document.body.classList.contains("view-item")) { var e = document.querySelector(".blog-item-content-wrapper .gallery-block"), t = document.querySelector(".blog-item-top-wrapper"); e && t && t.appendChild(e) }
+}());

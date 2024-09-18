@@ -1,0 +1,112 @@
+.luna-loader-2-image-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1111;
+}
+.luna-loader-1{
+  display:block !important;
+  position:fixed;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:400;
+}
+.luna-loader-2{
+  display:block !important;
+  position:fixed;
+  width:100%;
+  height:100%;
+  left:0;
+  z-index:300;
+}
+.luna-loader-2-image-container{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-pack:center;
+  -ms-flex-pack:center;
+  justify-content:center;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:1111;
+}
+.luna-loader-2-image-container img{
+  position:relative;
+  display:block;
+  top:0;
+  left:0;
+  width:100%;
+  height:auto;
+  object-fit:cover;
+  z-index:999999999;
+}
+
+
+
+
+
+
+
+
+
+/* 
+body:not(.excluded-page) {
+overflow: hidden;
+}
+body:not(.excluded-page).transition-overlay-hidden,
+body:not(.excluded-page).transition-overlay-hidden .Site,
+body:not(.excluded-page).transition-overlay-hidden #siteWrapper {
+overflow: visible;
+pointer-events: auto;
+}
+body.transition-overlay-hidden .Mobile-bar {
+visibility: visible;
+opacity: 1;
+pointer-events: auto;	
+}
+body:not(.excluded-page) .Mobile-bar {
+visibility: hidden;
+opacity: 0;
+pointer-events: none;
+-webkit-transition: opacity .15s ease-out;
+-moz-transition: opacity .15s ease-out;
+-o-transition: opacity .15s ease-out;
+transition: opacity .15s ease-out;
+}
+body:not(.excluded-page) #siteWrapper,
+body:not(.excluded-page) .Site {
+overflow: hidden;
+opacity: 0;
+pointer-events: none;
+}
+.transition-overlay {
+background-color: #e7f4ff;
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+visibility: hidden;
+overflow: hidden;
+pointer-events: none;
+z-index: 10000;
+}
+*/

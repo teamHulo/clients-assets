@@ -1,0 +1,49 @@
+/*
+{Plugin Name} developed by Hulo DEV
+For personal and professional use only. Cannot be redistributed with a profit motive or sold.
+
+Plugin Name: {Plugin Name}
+Plugin URI:  {Plugin URI}
+URI Access:  {URI status}
+Description: {Plugin Description}
+Version:     {Version of Plugin }
+Author:      {Plugin Author}
+Author URI:  {Author URI}
+License:     {License Version}
+ 
+{Plugin Name} is free software: you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, 
+or any later version.
+ 
+{Plugin Name} is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
+without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+See the GNU General Public License for more details.
+https://www.gnu.org/licenses/gpl-3.0.en.html
+*/
+
+
+
+
+/*     /////  License Example  /////
+
+Video Gallery Plugin developed by Hulo DEV
+For personal and professional use only. Cannot be redistributed with a profit motive or sold.
+
+Plugin Name: Hulo Video Gallery Plugin
+Plugin URI:  https://hulo.dev/plugins/video-gallery
+URI Access:  Public Access denied 
+Description: Squarespace v7.0 Video Gallery Plugin
+Version:     v1.01
+Author:      Hulo Dev
+Author URI:  https://hulo.dev/
+License:     GPL3
+ 
+Hulo Video Gallery Plugin is free software: you can redistribute it and/or modify it under the terms
+of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, 
+or any later version.
+ 
+Hulo Video Gallery Plugin is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
+without even the implied warranty ofMERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. 
+See the GNU General Public License for more details.
+https://www.gnu.org/licenses/gpl-3.0.en.html
+*/

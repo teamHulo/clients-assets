@@ -1,0 +1,3 @@
+html:not(.squarespace-damask) .code-block-with-anchor{
+  display: none;
+}
